@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:gravity="top"
+        tools:context="sh.dfm.dmitriibeletskiy.victorina.MainActivity">
+
+    <!-- Вопросы  -->
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tvQwe"
+                android:text="Бла бла бла бла бла бла блабла бла блабла бла блабла бла блабла бла бла"
+                android:textSize="18dp"
+                android:textColor="@color/Black"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <RadioGroup android:id="@+id/rbGr" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RadioButton
+            android:text="Вопрос1"
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <RadioButton
+            android:text="Вопрос2"
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <RadioButton
+            android:text="Вопрос3"
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <!-- Результат  -->
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tvRes"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+    </LinearLayout>
+
+    <!-- Кнопки  -->
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/btnpreview"
+                android:text="Пред"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/btnanswer"
+                android:text="Ответ"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/btnnext"
+                android:text="След"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

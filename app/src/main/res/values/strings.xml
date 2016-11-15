@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Victorina</string>
+
+
+
+    <string-array name="q1">
+        <item >Какой самый крупный примат?</item>
+        <item >Какое самое крупное ластоногое?</item>
+        <item >У кого из животных самая долгая спячка?</item>
+    </string-array>
+
+
+    <integer-array name="ra1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+
+
+</resources>

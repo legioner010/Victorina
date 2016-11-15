@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="a0">
+        <item>горилла</item>
+        <item>орангутанг</item>
+        <item>шимпанзе</item>
+    </array>
+
+    <array name="a1">
+        <item>морской лев</item>
+        <item>морской слон</item>
+        <item>морж</item>
+    </array>
+
+    <array name="a2">
+        <item>у бурых медведей</item>
+        <item>у летучих мышей</item>
+        <item>у земляных белок</item>
+    </array>
+
+</resources>
