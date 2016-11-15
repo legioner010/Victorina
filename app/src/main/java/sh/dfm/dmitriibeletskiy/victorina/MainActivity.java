@@ -105,6 +105,8 @@ public class MainActivity extends Activity {
 
         rbGr.clearCheck();
 
+
+
     }
 
     public void pressAnswer() {
